@@ -287,7 +287,9 @@ text-align: center;
   gap: 48px 24px;
 
 }
-
+. .portfolio-list-content {
+    width: calc((100% - 48px)/3);
+}
 .portfolio-subtitle {
     font-size: 20px;
     letter-spacing: 0.02em;
