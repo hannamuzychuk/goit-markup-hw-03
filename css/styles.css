@@ -53,7 +53,6 @@ button {
     display: flex;
     margin-right: auto;
     align-items: center;
-    padding: 24px 0;
 }
 
 .page-header-logo {
@@ -80,16 +79,21 @@ button {
 }
 
 .page-header-item {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+   
 }
 
 .page-contact-list {
     display: flex;
     gap: 40px;
+}
+.page-header-link {
+    padding: 24px 0;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .page-header-link:hover {
