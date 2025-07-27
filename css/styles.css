@@ -74,7 +74,6 @@ button {
     display: flex;
     gap: 40px;
     margin-right: 332px;
-    padding: 24px 0;
 }
 
 .page-header-item {
@@ -83,13 +82,13 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 
 .page-contact-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .page-header-link:hover {
