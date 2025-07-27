@@ -39,6 +39,7 @@ button {
 /* HEADER */
 .page-header {
     border-bottom: 1px solid #e7e9fc;
+    padding: 0 15px;
 }
 .page-header-container {
     display: flex;
@@ -46,9 +47,7 @@ button {
     padding-top: 24px;
     padding-bottom: 24px;
 }
-.menu {
-    display: flex;
-}
+
 
 .page-header-nav {
     display: flex;
@@ -83,6 +82,11 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+
+
+.page-header-link {
+padding: 24px 0;
 }
 
 .page-contact-list {
@@ -123,7 +127,7 @@ button {
 .hero {
     display: flex;
     background-color: #2e2f42;
-    padding: 0 188px;
+    padding: 188px 0;
 
 }
 
@@ -137,7 +141,6 @@ button {
     max-width: 496px;
     text-align: center;
     margin: 0 auto;
-    padding-top: 188px;
 }
 
 .hero-button-title {
@@ -154,7 +157,6 @@ button {
     display: block;
     margin: 0 auto;
     margin-top: 48px;
-    margin-bottom: 188px;
     min-width: 169px;
     height: 56px;
 }
@@ -294,7 +296,7 @@ button {
 }
 
 .portfolio-title {
-padding-bottom: 72px;
+margin-bottom: 72px;
 margin: 0 auto;
 text-align: center;
 }
