@@ -74,18 +74,12 @@ button {
 .page-header-list {
     display: flex;
     gap: 40px;
-    margin-right: 332px;
-   
 }
 
 .page-header-item {
    
 }
 
-.page-contact-list {
-    display: flex;
-    gap: 40px;
-}
 .page-header-link {
     padding: 24px 0;
     display: block;
@@ -109,12 +103,18 @@ button {
     font-style: normal;
     }
 
-.contacts-item {
+.page-contacts-link {
+    padding: 24px 0;
     color: #434455;
     font-size: 16px;
-     line-height: 1.5;
-     letter-spacing: 0.02em;
-     font-size: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+}
+
+.page-contact-list {
+    display: flex;
+    gap: 40px;
 }
 
 .page-contacts-link:hover,
@@ -127,14 +127,12 @@ button {
 
 
 .hero {
-    display: flex;
     background-color: #2e2f42;
     padding: 188px 0;
 
 }
 
 .page-title {
-    display: flex;
     color: #ffffff;
     font-weight: 700;
     font-size: 56px;
@@ -210,7 +208,6 @@ button {
     text-align: left;  
     font-weight: 500;
     color: #2e2f42;
-    display: flex;
     margin-bottom: 8px;
     
 }
@@ -225,7 +222,6 @@ button {
    line-height: 1.5;
    letter-spacing: 0.02em;
    text-align: left;
-   /* margin-bottom: 120px; */
 }
 .benefits-list-content {
     width: calc((100% - 3*24px)/4)
@@ -245,22 +241,24 @@ button {
 }
 
 .team-title {
-    min-width: 162px;
-    background-color: #f4f4fd;
-    margin: 0 auto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    /* background-color: #f4f4fd; */
     text-align: center;
     margin-bottom: 72px;
+    color: #2e2f42;
 }
 
 .team-list {
     display: flex;
     gap: 24px;
-    background-color: #ffffff;
-    
 }
 .team-list-content {
     width: calc((100% - 3*24px)/4);
     border-radius: 0 0 4px 4px;
+    background-color: #ffffff;
 }
 
 .team-subtitle {
@@ -292,9 +290,13 @@ button {
 }
 
 .portfolio-title {
-    /* margin: 0 auto; */
     text-align: center;
     margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .portfolio-list {
     display: flex;
@@ -337,7 +339,7 @@ button {
 }
 
 .page-footer-text {
-    max-width: 254px;
+    max-width: 264px;
     color: #f4f4fd;
     font-size: 16px;
     line-height: 1.5;
@@ -352,7 +354,6 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px;
     display: inline-block;
     margin-bottom: 16px;
 }
